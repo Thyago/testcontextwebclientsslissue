@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: testcontextwebclientsslissue
+  ssl:
+    bundle:
+      jks:
+        default:
+          key.alias: "client-cert"

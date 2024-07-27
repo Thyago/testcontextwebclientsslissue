@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: testcontextwebclientsslissue
+  ssl:
+    bundle:
+      jks:
+        default:
+          key.alias: "client-cert"
+          keystore:
+            location: "file:/keystore.jks"
+            password: ""
+            type: JKS
