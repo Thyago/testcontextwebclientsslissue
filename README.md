@@ -1,4 +1,4 @@
-# Spring Boot WebClientSsl Issue
+# Spring Boot Test Context + WebClientSsl Issue
 
 This project is a sample Spring Boot intended to simulate an issue found between Spring Boot versions 3.1.0 (when 
 WebClientSsl was introduced) and version 3.3.1.
@@ -24,5 +24,7 @@ And the WebClient test, which fails only if the 32 contexts were initialized bef
 ## References
 
 WebClientSsl documentation: https://docs.spring.io/spring-boot/api/java/org/springframework/boot/autoconfigure/web/reactive/function/client/WebClientSsl.html
+
 Spring Boot Ticket #41545: https://github.com/spring-projects/spring-boot/issues/41545
+
 Spring Boot Ticket #39199: https://github.com/spring-projects/spring-boot/issues/38199
